@@ -14,8 +14,11 @@ public class Grid {
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
 	}
 
+	public String print() {
+	    return null;
+	}
+	
 	public Grid tick() {
-		
-		return null;
+	    return null;
 	}
 }
