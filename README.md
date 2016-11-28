@@ -1,5 +1,5 @@
 # Game of Life
-====
+
 _The Game of Life_ takes place on a two-dimensional, finite, and 2D square grid of cells. Each `Cell` is in one of two possible states: _alive_ or _dead_.   
 Once the grid is initialized, the game progresses in discrete steps called `ticks`.   
 At each tick the existing snapshot of the grid is used for each cell to interact with its neighbors based on four basic rules to determine the next state of the grid.  
