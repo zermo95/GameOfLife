@@ -19,3 +19,5 @@ Requirements
 - At each tick, the state of the grid shall be updated according to the four neighborhood-based rules above. These rules shall be applied to all cells simultaneously, i.e. the order of cells to which the rules are applied should not affect the outcome.
 - The state of the grid shall be represented as a string, where dead cells are represented with a “-” (dash) and alive cells are represented with a “*” (star) character. When printed, this string should be displayed in N lines (rows of the grid), each consisting of N characters (columns of the grid), where NxN is the size of the grid.
 - You shall throw a `NegativeCoordinateException` when a cell receives negative coordinates, a `CellCoordinateOutOfBoundariesException` when the `Grid` contains cell outside its limits, and a `CustomLifeException` for all other error cases.
+
+**PLEASE COMPLETE QUESTIONNAIRE AT**: https://goo.gl/forms/aTJkjkXITHwMD3xB3
