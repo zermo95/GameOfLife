@@ -4,29 +4,32 @@ public class Cell {
 	private int x;
 	private int y;
 	private boolean alive;
+
 	public Cell() throws NegativeCoordinateException {
 	}
-	public Cell(int i, int j, boolean b) {
-		// TODO Auto-generated constructor stub
+
+	public int getX() {
+		return x;
 	}
-	public void setNumberOfAliveNeighbors(Cell[][] cells) {
-		// TODO Auto-generated method stub
-		
+
+	public void setX(int x) {
+		this.x = x;
 	}
-	public Object getNumberOfAliveNeighbords() {
-		// TODO Auto-generated method stub
-		return null;
+
+	public int getY() {
+		return y;
 	}
-	public boolean willSurvive() {
-		// TODO Auto-generated method stub
-		return false;
+
+	public void setY(int y) {
+		this.y = y;
 	}
-	public boolean willDie() {
-		// TODO Auto-generated method stub
-		return false;
+
+	public void setAlive(boolean alive) {
+		this.alive = alive;
 	}
-	public boolean willRevive() {
-		// TODO Auto-generated method stub
-		return false;
+
+	public boolean isAlive() {
+		return alive;
 	}
+
 }
